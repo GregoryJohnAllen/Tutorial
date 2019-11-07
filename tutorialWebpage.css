@@ -100,7 +100,7 @@ a {
     width: 130px;
     position: fixed;
     z-index: 1;
-    top: 0;
+    top: 540px;
     right: 0;
     background-color: #843599;
     overflow-x: hidden;
@@ -132,7 +132,7 @@ a {
 
 .main-section {
     margin: 0 0;
-    background-image: url('https://images.unsplash.com/photo-1558481795-7f0a7c906f5e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=773&q=80');
+    background-image: url('https://images.unsplash.com/photo-1484199316358-d7acb93729f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=772&q=80');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -160,8 +160,30 @@ p {
         -1px -1px 0 #000,
         -1px -1px 0 #000,
         -1px -1px 0 #000;
-    color: rgb(161, 240, 233);
+    color: rgb(97, 49, 209);
     opacity: .90;
+}
+
+.article-section {
+    display: grid;
+    grid-template: 1fr 1fr;
+    align-content: center;
+    align-items: center;
+}
+
+.elevenFifty {
+    mix-blend-mode: multiply;
+}
+
+.missionStatement {
+    margin: 30px 30px;
+    padding: 30px 30px;
+    grid-column: 2/3;
+}
+
+#missionParagraph {
+    color: rgb(235, 33, 208);
+    font-size: 2em;
 }
 
 .functions-col {
@@ -214,7 +236,7 @@ footer {
     justify-content: center; /*x axis centering*/
     margin-top: 0;
     border-top-style: inset;
-    background-image: url("https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80");
+    background-image: url("https://images.unsplash.com/photo-1555315809-fec13e3e9502?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
     background-size: cover;
 }
 
@@ -226,7 +248,7 @@ footer {
 }
 
 .footerBox p {
-    color: rgb(23, 89, 128);
+    color: rgb(152, 99, 196);
     text-shadow: none;
     justify-content: center;
     align-content: center;
